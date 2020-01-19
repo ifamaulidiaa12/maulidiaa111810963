@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MENU</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="css.css" rel="stylesheet">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</head>
+<style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: :#000000;
+  }
+  p {font: 16px Montserrat, sans-serif;
+    color: #ffffff;}
+  .margin {margin-bottom: 45px;}
+  .list {display: block;}
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;}
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .navbar {
+    color: #f5f6f7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+</style>
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="tugtug.html">home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="menu.html">menu</a></li>
+        <li><a href="order.html">order</a></li>
+        <li><a href="reservation.html">reservation</a></li>
+        <li><a href="about.html">about</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">your orders has been made. the admin will immediately contact you by phone to confirm. please wait :)</h3>
+</div>
+<div class="container-fluid bg-2 text-center">
+  <li class="list"><a href="tugtug.html">back to home</a></li>
+  <li class="list"><a href="menu.html">view menu</a></li>
+  <li class="list"><a href="order.html">orders food</a></li>
+  <li class="list"><a href="reservation.html">make a reservation</a></li>
+  <li class="list"><a href="about.html">about us</a></li>
+</div>
+<footer class="container-fluid bg-4 text-center">
+  <p>KULINER NUSANTARA 2019</p> 
+</footer>
+
+</body>
+</html>
